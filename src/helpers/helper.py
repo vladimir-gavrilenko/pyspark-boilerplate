@@ -1,0 +1,1 @@
+WORDS_SEPARATOR = "\\W+"

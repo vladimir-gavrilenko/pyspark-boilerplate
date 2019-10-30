@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+
+[dev-packages]
+pyspark = "==2.4.4"
+pyspark-stubs = "==2.4.*"
+flake8 = "*"
+pylint = "*"
+mypy = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-spark = "==0.5.*"
+
+[requires]
+python_version = "3.7"
